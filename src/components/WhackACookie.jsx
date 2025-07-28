@@ -53,7 +53,7 @@ export default function WhackACookie() {
 
   return (
     <div className="game-container">
-      <h1>Whack-A-Cookie 🍪🍪🍪</h1>
+      <h1>🍪🍪🍪 Whack-A-Cookie 🍪🍪🍪</h1>
       <div className="info">
         <p> ⏱️ {timeLeft}s</p>
         <p> 🍪 Score: {score}</p>
