@@ -6,17 +6,18 @@ export default function CatFacts() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  //
   //   const fetchFacts = () => {
   //     setLoading(true);
   //     setError(null);
-
+  //
   //     const requests = Array.from({ length: 5 }, () =>
   //       fetch("https://catfact.ninja/fact").then((response) => {
   //         if (!response.ok) throw new Error("Failed to fetch the kitty facts");
   //         return response.json();
   //       })
   //     )
-
+  //
   //     Promise.all(requests)
   //       .then((results) => {
   //         setFacts(results);
@@ -27,6 +28,7 @@ export default function CatFacts() {
   //         setLoading(false);
   //       });
   //   };
+  //
 
   const fetchFacts = async () => {
     setLoading(true);
