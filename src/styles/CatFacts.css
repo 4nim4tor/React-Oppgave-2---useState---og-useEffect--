@@ -10,6 +10,8 @@
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 0.8rem;
   margin-bottom: 1rem;
   animation: fadeIn 0.6s ease-in;
@@ -17,6 +19,7 @@
 }
 
 .fact-card {
+  width: 550px;
   color: #2d6e49;
   background: #f9f9f9;
   border-radius: 8px;
