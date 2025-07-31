@@ -1,6 +1,7 @@
-import "./App.css";
+import "./styles/App.css";
 
 import CarFacts from "./components/CatFacts";
+import UserList from "./components/UserList";
 import WhackACookie from "./components/WhackACookie";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <WhackACookie />
       <CarFacts />
+      <UserList />
     </>
   );
 }

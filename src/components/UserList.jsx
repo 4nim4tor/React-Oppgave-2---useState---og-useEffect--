@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import "./UserList.css";
+import "../styles/App.css";
+import "../styles/UserList.css";
 
 export default function UserList() {
   const mockData = [

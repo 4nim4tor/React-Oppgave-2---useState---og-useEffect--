@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import "./WhackACookie.css";
+import "../styles/App.css";
+import "../styles/WhackACookie.css";
 
 const GRID_SIZE = 7;
 const TOTAL_CELLS = GRID_SIZE * GRID_SIZE;

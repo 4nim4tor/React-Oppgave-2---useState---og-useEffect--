@@ -1,0 +1,35 @@
+.catfacts-container {
+  padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.fact-list {
+  height: 60vh;
+  max-height: 500px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  animation: fadeIn 0.6s ease-in;
+  scroll-behavior: smooth;
+}
+
+.fact-card {
+  color: #2d6e49;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 0.8rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.fact-card:hover {
+  transform: scale(1.02);
+}
+
+.catfacts-container button {
+  background: linear-gradient(to bottom, #50c878, #3a8f5c);
+  box-shadow: 0 4px 0 #2d6e49;
+}

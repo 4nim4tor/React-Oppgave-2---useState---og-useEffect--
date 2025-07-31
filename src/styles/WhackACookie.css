@@ -1,0 +1,53 @@
+.game-container {
+  padding: 1rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17rem;
+  font-size: 1.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.3rem;
+  max-width: fit-content;
+  margin: 0 auto;
+  touch-action: manipulation;
+}
+
+.cell {
+  width: 75px;
+  height: 75px;
+  aspect-ratio: 1 / 1;
+  background: transparent;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  user-select: none;
+}
+
+.cell.active img {
+  animation: pulse 0.4s ease-out;
+}
+
+.cookie-img {
+  max-width: 100%;
+  max-height: 100%;
+  pointer-events: none;
+  object-fit: contain;
+}
+
+.game-container button {
+  background: linear-gradient(to bottom, #f7b733, #fc4a1a);
+  box-shadow: 1px 2px 0 #c0392b, 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.game-container button:active {
+  box-shadow: 0 2px 0 #c0392b, 0 4px 8px rgba(0, 0, 0, 0.2);
+}
